@@ -4,10 +4,10 @@
   background: grey;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[12];
+  /* -ms-grid-columns: (1fr)[12];
       grid-template-columns: repeat(12, 1fr);
   -ms-grid-rows: (1fr)[12];
-      grid-template-rows: repeat(12, 1fr);
+      grid-template-rows: repeat(12, 1fr); */
 }
 
 #main #one {
