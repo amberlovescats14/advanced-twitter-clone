@@ -1,0 +1,11 @@
+@mixin grid($cols, $mgn) {
+  float: left;
+  margin-right: $mgn;
+  margin-bottom: $mgn;
+  
+}
+@mixin wh {
+  width: 100vw;
+  height: 100vh;
+
+}

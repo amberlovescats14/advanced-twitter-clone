@@ -1,0 +1,20 @@
+// simple addition
+@function sum($left, $right){
+  @return $left + $right
+};
+//sum(3px,5)=> 15px
+
+
+@function em($pixels, $context: 16px) {
+  @return ($pixels / $context) * 1em;
+};
+
+
+@function col-width($columns: 12, $page-width: 100%, $gap: 1%) {
+  @return  (($page-width - (($columns - 1) *$gap)) / $columns)
+};
+
+@function strip-unit($value) {
+  @return $value / ($value*0 +1);
+}
+

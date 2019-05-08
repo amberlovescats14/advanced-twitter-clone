@@ -1,4 +1,96 @@
-h1 {
-  color: blue;
+#main {
+  width: 100vw;
+  height: 100vh;
+  background: grey;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  -ms-grid-rows: (1fr)[12];
+      grid-template-rows: repeat(12, 1fr);
+}
+
+#main #one {
+  display: -ms-grid;
+  display: grid;
+  grid-area: one;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  grid-column: 1/ -1;
+  background: #1da0f1;
+  border: 2px solid black;
+}
+
+#main #two {
+  display: -ms-grid;
+  display: grid;
+  grid-area: two;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 4;
+  grid-row: 2 / 6;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1 / 4;
+  background: #1da0f1;
+  border: 2px solid black;
+}
+
+#main #three {
+  display: -ms-grid;
+  display: grid;
+  grid-area: three;
+  grid-row: 6 / -1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1 / 4;
+  background: #1da0f1;
+  border: 2px solid black;
+}
+
+#main #four {
+  display: -ms-grid;
+  display: grid;
+  grid-area: four;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 6;
+  grid-column: 4 / 10;
+  background: #1da0f1;
+  border: 2px solid black;
+}
+
+#main #five {
+  display: -ms-grid;
+  display: grid;
+  grid-area: five;
+  grid-row: 3/ -1;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 6;
+  grid-column: 4 / 10;
+  background: #1da0f1;
+  border: 2px solid black;
+}
+
+#main #six {
+  display: -ms-grid;
+  display: grid;
+  grid-area: six;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 5;
+  grid-row: 2 / 7;
+  grid-column: 10 / -1;
+  background: #1da0f1;
+  border: 2px solid black;
+}
+
+#main #seven {
+  display: -ms-grid;
+  display: grid;
+  grid-area: seven;
+  grid-row: 7 / -1;
+  grid-column: 10 / -1;
+  background: #1da0f1;
+  border: 2px solid black;
 }
 /*# sourceMappingURL=main.css.map */

@@ -2,6 +2,68 @@
 @import 'partials/mixins';
 @import 'partials/functions';
 
-h1 {
-  color: $header-color;
+
+#main  {
+@include wh();
+background: grey;
+display: grid;
+grid-template-columns: repeat(12, 1fr);
+grid-template-rows: repeat(12, 1fr);
+
+#one {
+  display: grid;
+  grid-area: one;
+  grid-row: 1;
+  grid-column: 1/ -1;
+  background: $main-color;
+  border: $border;
+}
+#two {
+  display: grid;
+  grid-area: two;
+  grid-row: 2 / 6;
+  grid-column: 1 / 4;
+  background: $main-color;
+  border: $border;
+}
+#three {
+  display: grid;
+  grid-area: three;
+  grid-row: 6 / -1;
+  grid-column: 1 / 4;
+  background: $main-color;
+  border: $border;
+}
+#four {
+  display: grid;
+  grid-area: four;
+  grid-row: 2 ;
+  grid-column: 4 / 10;
+  background: $main-color;
+  border: $border;
+}
+#five {
+  display: grid;
+  grid-area: five;
+  grid-row: 3/ -1 ;
+  grid-column: 4 / 10;
+  background: $main-color;
+  border: $border;
+}
+#six {
+  display: grid;
+  grid-area: six;
+  grid-row: 2 / 7;
+  grid-column: 10 / -1;
+  background: $main-color;
+  border: $border;
+}
+#seven {
+  display: grid;
+  grid-area: seven;
+  grid-row: 7 / -1;
+  grid-column: 10 / -1;
+  background: $main-color;
+  border: $border;
+}
 }
