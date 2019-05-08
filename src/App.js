@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
-import  './App.css';
 import LeftComponent from'./components/LeftComponent';
 import RightComponent from './components/RightComponent';
 import MiddleComponent from './components/MiddleComponent';
+import './css/main.css'
 // import { tsConstructorType } from '@babel/types';
 
 

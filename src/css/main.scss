@@ -1,0 +1,7 @@
+@import 'partials/variables';
+@import 'partials/mixins';
+@import 'partials/functions';
+
+h1 {
+  color: $header-color;
+}
