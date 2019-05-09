@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Nav from './components/nav/Nav';
 import Left from "./components/left/Left";
 import Middle from"./components/middle/Middle";
@@ -14,10 +14,11 @@ function App(){
    return (
     <div id="main" className="app">
     <div id="one"><Nav/></div>
+    <div id="bottom">
     <div id="two"><Left/></div>
     <div id="three"><Middle/></div>
     <div id="four"><Right/></div>
-
+    </div>
     
     </div>
   );

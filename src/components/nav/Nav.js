@@ -22,9 +22,23 @@ export default class Nav extends Component {
         </div>
 
 
-        <div className="search">search</div>
+        <div className="search">
+
+          <section id="searchBar">
+            <input type="text" placeholder="Search Twitter" id="bar"></input>
+            <input type="submit" id="btn"></input>
+          </section>
+
+          <img src="https://www.shutterbug.com/images/styles/600_wide/public/Promobl6618.jpg" alt="profilePic"></img>
+
+          <button> 
+          <i className="fas fa-feather-alt"></i>
+            Tweet
+          </button>
+        </div>
        
       </div>
     )
   }
 }
+      
