@@ -110,7 +110,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 1px solid red;
 }
 
 .leftTop {
@@ -121,7 +120,6 @@
 .leftTop #content {
   width: 80%;
   height: 100%;
-  border: 1px solid grey;
   float: right;
   display: -ms-grid;
   display: grid;
@@ -130,6 +128,8 @@
   -ms-grid-rows: (1fr)[12];
       grid-template-rows: repeat(12, 1fr);
   background: #f1eaea;
+  -webkit-box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3;
+          box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3;
 }
 
 .leftTop .whitePortion {
@@ -235,6 +235,8 @@
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
+  -webkit-box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3;
+          box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3;
 }
 
 .leftTop .whiteBottom p {
@@ -249,12 +251,36 @@
 .leftBottom {
   width: 100%;
   height: 50%;
+  font-family: arial;
 }
 
 .leftBottom #content2 {
   width: 80%;
   height: 100%;
   float: right;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.leftBottom h2 {
+  margin: 10px 0 0  36px;
+}
+
+.leftBottom ul {
+  list-style: none;
+  width: 100%;
+  float: left;
+}
+
+.leftBottom ul li {
+  line-height: .7;
+}
+
+.leftBottom ul li div {
+  color: #1da0f1;
+  font-size: 2vh;
+  font-weight: 700;
+  margin-top: 20px;
 }
 
 #middle {
@@ -306,7 +332,6 @@
 }
 
 #main {
-  background: grey;
   display: inline-block;
   width: 100vw;
   height: 100vh;

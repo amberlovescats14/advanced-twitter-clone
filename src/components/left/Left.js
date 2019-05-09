@@ -42,6 +42,33 @@ export default class Left extends Component {
       <div className="leftBottom">
       <div id="content2">
       <h2>Trends</h2>
+      <ul>
+        
+        <li>
+          <div>#Bucks</div> <br/>
+          3,620 Tweets
+        </li>
+        <li>
+          <div>#Bucks</div> <br/>
+          3,620 Tweets
+        </li>
+        <li>
+          <div>#Bucks</div> <br/>
+          3,620 Tweets
+        </li>
+        <li>
+          <div>#Bucks</div> <br/>
+          3,620 Tweets
+        </li>
+        <li>
+          <div>#Bucks</div> <br/>
+          3,620 Tweets
+        </li>
+        <li>
+          <div>#Bucks</div> <br/>
+          3,620 Tweets
+        </li>
+      </ul>
       </div>
       </div>
     </div>
