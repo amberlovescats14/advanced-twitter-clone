@@ -1,4 +1,7 @@
 @import 'partials/nav';
+@import 'partials/left';
+@import 'partials/middle';
+@import 'partials/right';
 
 @mixin wh {
   width: 100vw;
@@ -42,28 +45,25 @@ $grid-height: 100%;
 #main  {
 background: grey;
 display: inline-block;
-@include wh()
+@include wh();
 }
 #one { 
   width: column-width(12); 
   height: row-height(1);
-  background: red;
+  display: inline-block
 }
 #two { 
   width: column-width(3); 
   height: row-height(11);
-  background: red;
   display: inline-block;
 }
 #three { 
   width: column-width(6); 
   height: row-height(11);
-  background: red;
   display: inline-block;
 }
 #four { 
   width: column-width(3); 
   height: row-height(11);
-  background: red;
   display: inline-block;
 }

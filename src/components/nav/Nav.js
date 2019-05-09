@@ -4,7 +4,7 @@ export default class Nav extends Component {
   render() {
     return (
       <div id="nav">
-      
+        
         <div className="icons">
         <i className="fas fa-home fa-2x"></i>
        <p>Home</p>
@@ -15,9 +15,13 @@ export default class Nav extends Component {
         <i className="fas fa-envelope fa-2x"></i>
         <p>Messages</p>
         </div>
+
+
         <div className="logo">
         <i className="fab fa-twitter fa-2x" ></i>
         </div>
+
+
         <div className="search">search</div>
        
       </div>

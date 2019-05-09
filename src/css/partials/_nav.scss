@@ -5,41 +5,43 @@ $main-color: #1da0f1;
   height: 100%;
 }
 #nav {
-  @include whPercent()
+  @include whPercent();
   display: inline-flex;
+  background: white;
+
+  .icons {
+    width: 40%;
+    height: 100%;
+    background: white;
+    display: inline-flex;
+    justify-content: center;
+    font-family: arial;
+    padding: 10px;
+    i {
+      padding: 5px
+    }
+    p {
+      margin-top:10px;
+    }
+  }
+  .logo {
+    width: 20%;
+    height: 100%;
+    background: white;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+    i {
+      color: $main-color;
+      margin: auto auto;
+    }
+  }
+  .search {
+    width: 40%;
+    height: 100%;
+    background: white;
+    
+  }
 }
 
-.icons {
-  width: 40%;
-  height: 100%;
-  background: white;
-  display: inline-flex;
-  justify-content: center;
-  font-family: arial;
-  padding: 10px;
-  i {
-    padding: 5px
-  }
-  p {
-    margin-top:10px;
-  }
-}
-.logo {
-  width: 20%;
-  height: 100%;
-  background: white;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  
-  i {
-    color: $main-color;
-    margin: auto auto;
-  }
-}
-.search {
-  width: 40%;
-  height: 100%;
-  background: white;
-  
-}

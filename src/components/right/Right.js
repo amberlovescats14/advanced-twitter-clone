@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 
-export default class Middle1 extends Component {
+export default class Right extends Component {
   render() {
     return (
-      <div>
-        <h1>middle1</h1>
+      <div id="right">
+        <div className="rightTop"></div>
+        <div className="rightBottom"></div>
       </div>
     )
   }

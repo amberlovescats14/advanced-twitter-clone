@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 
-export default class Left1 extends Component {
+export default class Left extends Component {
   render() {
     return (
-      <div>
-        <h1>left1</h1>
-      </div>
+      <div id="left">
+      <div className="leftTop">top</div>
+      <div className="leftBottom">bottom</div>
+    </div>
     )
   }
 }
